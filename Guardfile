@@ -1,11 +1,6 @@
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
-# guard 'passenger' do # comment if windows
-#   watch(/^lib\/.*\.rb$/)
-#   watch(/^config\/.*\.rb$/)
-# end
-
 guard 'rails' do # uncomment if windows
   watch('Gemfile.lock')
   watch(%r{^(config|lib)/.*})
