@@ -21,7 +21,6 @@ group :development, :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'headless'
-  gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   gem 'spork'
   gem 'factory_girl_rails'
@@ -29,7 +28,6 @@ group :development, :test do
 
   #guard!
   gem 'guard-rspec'
-  gem 'guard-cucumber'
   gem 'guard-spork'
   gem 'guard-livereload'
   gem 'rack-livereload'
